@@ -1,0 +1,97 @@
+{
+  "25_Portfolios_5x5_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:12+00:00",
+    "sha256": "e02edcd282d8993cf3133e71181665f888ecb57c202a99a9cbd6cdf7fc6b8429",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/25_Portfolios_5x5_CSV.zip"
+  },
+  "49_Industry_Portfolios_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:15+00:00",
+    "sha256": "16b3f20bf5bd1db8f5cd7a1b29f5cab1350eb0d5106c5309f77a6629590b1c0e",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip"
+  },
+  "6_Portfolios_2x3_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:17+00:00",
+    "sha256": "82b66ccd6a4dff103eba51b60e1f2310eaa94bbebbb843550173b972c64cdbff",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/6_Portfolios_2x3_CSV.zip"
+  },
+  "Asia_Pacific_ex_Japan_25_Portfolios_ME_BE-ME_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:52+00:00",
+    "sha256": "034560bd198d32326576b0994891325d2ca1b2b55c72769eb1689ad64a14d8be",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Asia_Pacific_ex_Japan_25_Portfolios_ME_BE-ME_CSV.zip"
+  },
+  "Asia_Pacific_ex_Japan_3_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:50+00:00",
+    "sha256": "c0d835fa5db6092ab35714dfd8ca820b00b08cdf7bef1d151f33c725f4c67893",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Asia_Pacific_ex_Japan_3_Factors_CSV.zip"
+  },
+  "Developed_25_Portfolios_ME_BE-ME_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:23+00:00",
+    "sha256": "edf9ce3a9b0c8588e4651a3d25ff01ec969690c17633d45e24460e67b7546de7",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Developed_25_Portfolios_ME_BE-ME_CSV.zip"
+  },
+  "Developed_3_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:21+00:00",
+    "sha256": "b6bdca31293c96af8117690707a9346d1174c5cd3f8ab662db6b616c46b73dfc",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Developed_3_Factors_CSV.zip"
+  },
+  "Europe_25_Portfolios_ME_BE-ME_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:45+00:00",
+    "sha256": "046a50c8472eaed5df4b56dc2656c8ae9ff6f793faa9e22e6e9be506e01e08e3",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Europe_25_Portfolios_ME_BE-ME_CSV.zip"
+  },
+  "Europe_3_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:43+00:00",
+    "sha256": "529b7f1909b91343d02ad48b51f09dd137d38dd542f74d8c577c3872c2b6585a",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Europe_3_Factors_CSV.zip"
+  },
+  "F-F_Momentum_Factor_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:18+00:00",
+    "sha256": "c06d1c2e9a5e4f6985879722f23c6bb585f46b34eaf3fcb681d4de887e353f3e",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip"
+  },
+  "F-F_Research_Data_5_Factors_2x3_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:19+00:00",
+    "sha256": "36756c5c2559648519ac4b22913d860c6afd865cfebce920e3e8927f8e2d10b7",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip"
+  },
+  "F-F_Research_Data_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:09+00:00",
+    "sha256": "593f4fbef03181bc0b22ff6292f217689dd1fb79355049ca905d95b262040a66",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip"
+  },
+  "FRED_BAA.csv": {
+    "downloaded_utc": "2026-10-04T19:05:19+00:00",
+    "sha256": "3396297d0b2f8f4e8bb467207286c33c04d97bfe37b25bc5a97da6bafc615e93",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA"
+  },
+  "FRED_GS10.csv": {
+    "downloaded_utc": "2026-10-04T19:05:19+00:00",
+    "sha256": "40323f225e613a19a4eec7eef20523dec10764de21c70cd1416a7379fb7f13b6",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=GS10"
+  },
+  "FRED_USREC.csv": {
+    "downloaded_utc": "2026-10-04T19:05:20+00:00",
+    "sha256": "a42a3581fe9c260dd3627febc84a7d563e5ed162cc7085a7518ebde99dc3c3b4",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=USREC"
+  },
+  "Japan_25_Portfolios_ME_BE-ME_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:49+00:00",
+    "sha256": "84f006ec5e5c63526b6d4b73f65af9bfb37972d427aec9213d6233f76a6189ca",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Japan_25_Portfolios_ME_BE-ME_CSV.zip"
+  },
+  "Japan_3_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:46+00:00",
+    "sha256": "e116a250dff2e152d2c43359a99d1e478d7d3d94f35d3afb412af3a094f5db20",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Japan_3_Factors_CSV.zip"
+  },
+  "North_America_25_Portfolios_ME_BE-ME_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:41+00:00",
+    "sha256": "bf61b662a1c5a34515cebfce8477af71c947981e4dcb8a40dd76491f406187dd",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/North_America_25_Portfolios_ME_BE-ME_CSV.zip"
+  },
+  "North_America_3_Factors_CSV.zip": {
+    "downloaded_utc": "2026-10-04T19:05:39+00:00",
+    "sha256": "8dd66a61dea226dae28ec1092e869921a60df09d0c34d9d34a471bc089a5e64b",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/North_America_3_Factors_CSV.zip"
+  }
+}

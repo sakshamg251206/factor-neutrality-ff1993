@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Alpha or Factor Exposure? A Replication of Fama and French (1993) and a Factor-Neutrality Test of Industry Momentum, 1963-2026"
+type: software
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Garg
+    given-names: Saksham
+    email: sakshamgarg87@gmail.com
+keywords:
+  - asset pricing
+  - Fama-French
+  - factor models
+  - alpha
+  - momentum
+  - replication
+# A DOI will be added here only after the Zenodo record exists.
+references:
+  - type: article
+    authors:
+      - family-names: Fama
+        given-names: Eugene F.
+      - family-names: French
+        given-names: Kenneth R.
+    title: "Common risk factors in the returns on stocks and bonds"
+    journal: "Journal of Financial Economics"
+    year: 1993
+    volume: 33
+    issue: 1
+    start: 3
+    end: 56
+    doi: 10.1016/0304-405X(93)90023-5

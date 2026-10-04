@@ -1,0 +1,14 @@
+# Python 3.14 (tested on 3.14.4). Direct dependencies, pinned.
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+requests==2.34.2
+Jinja2==3.1.6        # pandas LaTeX table export
+pytest==9.1.1
+# notebooks
+jupyter==1.1.1
+nbconvert==7.17.1
+nbformat==5.11.1
+ipykernel==7.4.0

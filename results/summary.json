@@ -1,0 +1,710 @@
+{
+ "replication": {
+  "grs": {
+   "FF93 F (32 assets)": {
+    "TERM+DEF": 2.09,
+    "CAPM": 1.91,
+    "SMB+HML": 1.75,
+    "FF3": 1.56,
+    "FF3+TERM+DEF": 1.66,
+    "FF3+UMD": NaN,
+    "FF5": NaN,
+    "FF5+UMD": NaN
+   },
+   "F In-sample": {
+    "TERM+DEF": 2.055,
+    "CAPM": 1.9848,
+    "SMB+HML": 1.5379,
+    "FF3": 1.4318,
+    "FF3+TERM+DEF": 1.536,
+    "FF3+UMD": 1.4571,
+    "FF5": 1.1106,
+    "FF5+UMD": 1.2094
+   },
+   "p In-sample": {
+    "TERM+DEF": 0.0026,
+    "CAPM": 0.004,
+    "SMB+HML": 0.0508,
+    "FF3": 0.0861,
+    "FF3+TERM+DEF": 0.0514,
+    "FF3+UMD": 0.0762,
+    "FF5": 0.3283,
+    "FF5+UMD": 0.2279
+   },
+   "|a| In-sample (%)": {
+    "TERM+DEF": 0.5471,
+    "CAPM": 0.2569,
+    "SMB+HML": 0.5046,
+    "FF3": 0.0937,
+    "FF3+TERM+DEF": 0.0954,
+    "FF3+UMD": 0.1032,
+    "FF5": 0.0826,
+    "FF5+UMD": 0.092
+   },
+   "F Out-of-sample": {
+    "TERM+DEF": 3.9349,
+    "CAPM": 3.8399,
+    "SMB+HML": 4.0162,
+    "FF3": 3.7126,
+    "FF3+TERM+DEF": 3.7986,
+    "FF3+UMD": 3.4458,
+    "FF5": 3.3435,
+    "FF5+UMD": 3.1164
+   },
+   "p Out-of-sample": {
+    "TERM+DEF": 0.0,
+    "CAPM": 0.0,
+    "SMB+HML": 0.0,
+    "FF3": 0.0,
+    "FF3+TERM+DEF": 0.0,
+    "FF3+UMD": 0.0,
+    "FF5": 0.0,
+    "FF5+UMD": 0.0
+   },
+   "|a| Out-of-sample (%)": {
+    "TERM+DEF": 0.6124,
+    "CAPM": 0.1726,
+    "SMB+HML": 0.7613,
+    "FF3": 0.1159,
+    "FF3+TERM+DEF": 0.1173,
+    "FF3+UMD": 0.1095,
+    "FF5": 0.1203,
+    "FF5+UMD": 0.1133
+   },
+   "F Full": {
+    "TERM+DEF": 4.2782,
+    "CAPM": 4.1963,
+    "SMB+HML": 4.2836,
+    "FF3": 3.6426,
+    "FF3+TERM+DEF": 3.5806,
+    "FF3+UMD": 3.219,
+    "FF5": 3.2279,
+    "FF5+UMD": 2.9354
+   },
+   "p Full": {
+    "TERM+DEF": 0.0,
+    "CAPM": 0.0,
+    "SMB+HML": 0.0,
+    "FF3": 0.0,
+    "FF3+TERM+DEF": 0.0,
+    "FF3+UMD": 0.0,
+    "FF5": 0.0,
+    "FF5+UMD": 0.0
+   },
+   "|a| Full (%)": {
+    "TERM+DEF": 0.5513,
+    "CAPM": 0.1967,
+    "SMB+HML": 0.6131,
+    "FF3": 0.0868,
+    "FF3+TERM+DEF": 0.0857,
+    "FF3+UMD": 0.0804,
+    "FF5": 0.0875,
+    "FF5+UMD": 0.0803
+   }
+  },
+  "agreement": {
+   "Corr(ours, FF93)": {
+    "Mean excess": 0.98,
+    "CAPM alpha": 0.9834,
+    "FF3 alpha": 0.9238,
+    "FF3 alpha t": 0.8735,
+    "CAPM R2": 0.9846,
+    "FF3 R2": 0.9759
+   },
+   "Mean abs diff": {
+    "Mean excess": 0.0383,
+    "CAPM alpha": 0.033,
+    "FF3 alpha": 0.0446,
+    "FF3 alpha t": 0.658,
+    "CAPM R2": 0.0179,
+    "FF3 R2": 0.006
+   },
+   "Max abs diff": {
+    "Mean excess": 0.1662,
+    "CAPM alpha": 0.13,
+    "FF3 alpha": 0.1134,
+    "FF3 alpha t": 1.7914,
+    "CAPM R2": 0.048,
+    "FF3 R2": 0.0184
+   }
+  }
+ },
+ "strategy": {
+  "imom": {
+   "alpha (%/yr)": {
+    "CAPM": 9.3955,
+    "FF3": 10.7841,
+    "FF3+UMD": 2.3147,
+    "FF5": 10.4188,
+    "FF5+UMD": 2.7627
+   },
+   "t(alpha)": {
+    "CAPM": 4.9046,
+    "FF3": 5.7522,
+    "FF3+UMD": 2.0883,
+    "FF5": 4.9211,
+    "FF5+UMD": 2.4644
+   },
+   "Mkt-RF": {
+    "CAPM": -0.1061,
+    "FF3": -0.1339,
+    "FF3+UMD": 0.035,
+    "FF5": -0.1104,
+    "FF5+UMD": 0.0301
+   },
+   "t(Mkt-RF)": {
+    "CAPM": -1.6179,
+    "FF3": -2.3492,
+    "FF3+UMD": 1.3324,
+    "FF5": -1.9236,
+    "FF5+UMD": 1.0775
+   },
+   "SMB": {
+    "CAPM": NaN,
+    "FF3": -0.0731,
+    "FF3+UMD": -0.0487,
+    "FF5": -0.0815,
+    "FF5+UMD": -0.0827
+   },
+   "t(SMB)": {
+    "CAPM": NaN,
+    "FF3": -0.6346,
+    "FF3+UMD": -1.1343,
+    "FF5": -0.71,
+    "FF5+UMD": -1.5824
+   },
+   "HML": {
+    "CAPM": NaN,
+    "FF3": -0.3,
+    "FF3+UMD": -0.01,
+    "FF5": -0.3935,
+    "FF5+UMD": 0.0106
+   },
+   "t(HML)": {
+    "CAPM": NaN,
+    "FF3": -2.7791,
+    "FF3+UMD": -0.2217,
+    "FF5": -3.2424,
+    "FF5+UMD": 0.2121
+   },
+   "RMW": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.0442,
+    "FF5+UMD": -0.1265
+   },
+   "t(RMW)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.2422,
+    "FF5+UMD": -2.2495
+   },
+   "CMA": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 0.2435,
+    "FF5+UMD": -0.0081
+   },
+   "t(CMA)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 1.3437,
+    "FF5+UMD": -0.1099
+   },
+   "UMD": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 0.8642,
+    "FF5": NaN,
+    "FF5+UMD": 0.8668
+   },
+   "t(UMD)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 29.5868,
+    "FF5": NaN,
+    "FF5+UMD": 30.8134
+   },
+   "adj R2": {
+    "CAPM": 0.01,
+    "FF3": 0.0468,
+    "FF3+UMD": 0.6654,
+    "FF5": 0.0517,
+    "FF5+UMD": 0.6685
+   },
+   "N": {
+    "CAPM": 758.0,
+    "FF3": 758.0,
+    "FF3+UMD": 758.0,
+    "FF5": 758.0,
+    "FF5+UMD": 758.0
+   }
+  },
+  "imom_net": {
+   "alpha (%/yr)": {
+    "CAPM": 6.779,
+    "FF3": 8.1683,
+    "FF3+UMD": -0.3112,
+    "FF5": 7.8057,
+    "FF5+UMD": 0.1402
+   },
+   "t(alpha)": {
+    "CAPM": 3.5113,
+    "FF3": 4.3192,
+    "FF3+UMD": -0.2784,
+    "FF5": 3.6586,
+    "FF5+UMD": 0.1239
+   },
+   "Mkt-RF": {
+    "CAPM": -0.1069,
+    "FF3": -0.135,
+    "FF3+UMD": 0.0342,
+    "FF5": -0.1115,
+    "FF5+UMD": 0.0292
+   },
+   "t(Mkt-RF)": {
+    "CAPM": -1.6286,
+    "FF3": -2.3666,
+    "FF3+UMD": 1.2955,
+    "FF5": -1.9417,
+    "FF5+UMD": 1.0406
+   },
+   "SMB": {
+    "CAPM": NaN,
+    "FF3": -0.0721,
+    "FF3+UMD": -0.0476,
+    "FF5": -0.0806,
+    "FF5+UMD": -0.0818
+   },
+   "t(SMB)": {
+    "CAPM": NaN,
+    "FF3": -0.6239,
+    "FF3+UMD": -1.1074,
+    "FF5": -0.7012,
+    "FF5+UMD": -1.5631
+   },
+   "HML": {
+    "CAPM": NaN,
+    "FF3": -0.3002,
+    "FF3+UMD": -0.0099,
+    "FF5": -0.3936,
+    "FF5+UMD": 0.0109
+   },
+   "t(HML)": {
+    "CAPM": NaN,
+    "FF3": -2.7793,
+    "FF3+UMD": -0.2191,
+    "FF5": -3.2396,
+    "FF5+UMD": 0.2196
+   },
+   "RMW": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.0446,
+    "FF5+UMD": -0.127
+   },
+   "t(RMW)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.2436,
+    "FF5+UMD": -2.252
+   },
+   "CMA": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 0.243,
+    "FF5+UMD": -0.009
+   },
+   "t(CMA)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 1.34,
+    "FF5+UMD": -0.1215
+   },
+   "UMD": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 0.8652,
+    "FF5": NaN,
+    "FF5+UMD": 0.8679
+   },
+   "t(UMD)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 29.6238,
+    "FF5": NaN,
+    "FF5+UMD": 30.842
+   },
+   "adj R2": {
+    "CAPM": 0.0102,
+    "FF3": 0.0468,
+    "FF3+UMD": 0.665,
+    "FF5": 0.0517,
+    "FF5+UMD": 0.6681
+   },
+   "N": {
+    "CAPM": 758.0,
+    "FF3": 758.0,
+    "FF3+UMD": 758.0,
+    "FF5": 758.0,
+    "FF5+UMD": 758.0
+   }
+  },
+  "hedged": {
+   "alpha (%/yr)": {
+    "CAPM": 2.6968,
+    "FF3": 2.5986,
+    "FF3+UMD": 2.5649,
+    "FF5": 2.7384,
+    "FF5+UMD": 2.7364
+   },
+   "t(alpha)": {
+    "CAPM": 2.1187,
+    "FF3": 2.0155,
+    "FF3+UMD": 1.9705,
+    "FF5": 2.1637,
+    "FF5+UMD": 2.0801
+   },
+   "Mkt-RF": {
+    "CAPM": -0.0079,
+    "FF3": -0.0084,
+    "FF3+UMD": -0.0077,
+    "FF5": -0.0039,
+    "FF5+UMD": -0.0039
+   },
+   "t(Mkt-RF)": {
+    "CAPM": -0.2632,
+    "FF3": -0.2804,
+    "FF3+UMD": -0.2584,
+    "FF5": -0.1281,
+    "FF5+UMD": -0.1263
+   },
+   "SMB": {
+    "CAPM": NaN,
+    "FF3": 0.0213,
+    "FF3+UMD": 0.0216,
+    "FF5": -0.0107,
+    "FF5+UMD": -0.0107
+   },
+   "t(SMB)": {
+    "CAPM": NaN,
+    "FF3": 0.4826,
+    "FF3+UMD": 0.4816,
+    "FF5": -0.1886,
+    "FF5+UMD": -0.186
+   },
+   "HML": {
+    "CAPM": NaN,
+    "FF3": 0.0238,
+    "FF3+UMD": 0.025,
+    "FF5": -0.0064,
+    "FF5+UMD": -0.0063
+   },
+   "t(HML)": {
+    "CAPM": NaN,
+    "FF3": 0.4424,
+    "FF3+UMD": 0.4363,
+    "FF5": -0.1058,
+    "FF5+UMD": -0.1004
+   },
+   "RMW": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.0935,
+    "FF5+UMD": -0.0935
+   },
+   "t(RMW)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -1.3014,
+    "FF5+UMD": -1.3133
+   },
+   "CMA": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 0.0798,
+    "FF5+UMD": 0.0797
+   },
+   "t(CMA)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 0.9529,
+    "FF5+UMD": 0.9951
+   },
+   "UMD": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 0.0035,
+    "FF5": NaN,
+    "FF5+UMD": 0.0002
+   },
+   "t(UMD)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": 0.1078,
+    "FF5": NaN,
+    "FF5+UMD": 0.0073
+   },
+   "adj R2": {
+    "CAPM": -0.0013,
+    "FF3": -0.003,
+    "FF3+UMD": -0.0045,
+    "FF5": 0.0017,
+    "FF5+UMD": 0.0003
+   },
+   "N": {
+    "CAPM": 698.0,
+    "FF3": 698.0,
+    "FF3+UMD": 698.0,
+    "FF5": 698.0,
+    "FF5+UMD": 698.0
+   }
+  },
+  "smallvalue": {
+   "alpha (%/yr)": {
+    "CAPM": 5.6919,
+    "FF3": 2.1623,
+    "FF3+UMD": 2.1994,
+    "FF5": 1.9146,
+    "FF5+UMD": 2.0307
+   },
+   "t(alpha)": {
+    "CAPM": 2.7707,
+    "FF3": 2.8953,
+    "FF3+UMD": 3.1025,
+    "FF5": 2.7679,
+    "FF5+UMD": 2.8744
+   },
+   "Mkt-RF": {
+    "CAPM": 1.0638,
+    "FF3": 0.9453,
+    "FF3+UMD": 0.9445,
+    "FF5": 0.9617,
+    "FF5+UMD": 0.9595
+   },
+   "t(Mkt-RF)": {
+    "CAPM": 23.92,
+    "FF3": 52.6504,
+    "FF3+UMD": 54.9192,
+    "FF5": 43.8138,
+    "FF5+UMD": 42.448
+   },
+   "SMB": {
+    "CAPM": NaN,
+    "FF3": 1.0995,
+    "FF3+UMD": 1.0994,
+    "FF5": 1.0781,
+    "FF5+UMD": 1.0781
+   },
+   "t(SMB)": {
+    "CAPM": NaN,
+    "FF3": 22.7798,
+    "FF3+UMD": 22.7008,
+    "FF5": 27.1561,
+    "FF5+UMD": 27.4942
+   },
+   "HML": {
+    "CAPM": NaN,
+    "FF3": 0.6918,
+    "FF3+UMD": 0.6906,
+    "FF5": 0.4114,
+    "FF5+UMD": 0.4053
+   },
+   "t(HML)": {
+    "CAPM": NaN,
+    "FF3": 23.5154,
+    "FF3+UMD": 21.631,
+    "FF5": 6.9912,
+    "FF5+UMD": 7.2816
+   },
+   "RMW": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.0155,
+    "FF5+UMD": -0.0143
+   },
+   "t(RMW)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": -0.3487,
+    "FF5+UMD": -0.3284
+   },
+   "CMA": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 0.2391,
+    "FF5+UMD": 0.2429
+   },
+   "t(CMA)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": NaN,
+    "FF5": 1.8923,
+    "FF5+UMD": 1.9857
+   },
+   "UMD": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": -0.0038,
+    "FF5": NaN,
+    "FF5+UMD": -0.0131
+   },
+   "t(UMD)": {
+    "CAPM": NaN,
+    "FF3": NaN,
+    "FF3+UMD": -0.1462,
+    "FF5": NaN,
+    "FF5+UMD": -0.5018
+   },
+   "adj R2": {
+    "CAPM": 0.5746,
+    "FF3": 0.9076,
+    "FF3+UMD": 0.9074,
+    "FF5": 0.9046,
+    "FF5+UMD": 0.9046
+   },
+   "N": {
+    "CAPM": 758.0,
+    "FF3": 758.0,
+    "FF3+UMD": 758.0,
+    "FF5": 758.0,
+    "FF5+UMD": 758.0
+   }
+  }
+ },
+ "robustness": {
+  "grid_best": [
+   12,
+   0,
+   10
+  ],
+  "dsr_best": {
+   "SR_monthly": 0.256380917721246,
+   "SR0_monthly": 0.07754127419706427,
+   "N_trials": 16,
+   "DSR": 0.9988538588899776
+  },
+  "dsr_base": {
+   "SR_monthly": 0.23475080370417403,
+   "SR0_monthly": 0.07754127419706427,
+   "N_trials": 16,
+   "DSR": 0.9968972323097623
+  },
+  "grid_spearman_is_oos": 0.7235294117647059
+ },
+ "international": {
+  "Months": {
+   "North America": 434.0,
+   "Europe": 434.0,
+   "Japan": 434.0,
+   "Asia Pacific ex Japan": 434.0,
+   "Developed": 434.0
+  },
+  "Mean (%/yr)": {
+   "North America": 12.9147,
+   "Europe": 9.078,
+   "Japan": 6.7651,
+   "Asia Pacific ex Japan": 13.9283,
+   "Developed": 10.9092
+  },
+  "CAPM alpha": {
+   "North America": 3.677,
+   "Europe": 3.5351,
+   "Japan": 4.4537,
+   "Asia Pacific ex Japan": 6.9956,
+   "Developed": 5.3373
+  },
+  "CAPM t": {
+   "North America": 1.488,
+   "Europe": 2.0415,
+   "Japan": 1.9861,
+   "Asia Pacific ex Japan": 2.5163,
+   "Developed": 3.0704
+  },
+  "GRS CAPM": {
+   "North America": 3.472,
+   "Europe": 3.0423,
+   "Japan": 1.5424,
+   "Asia Pacific ex Japan": 4.0764,
+   "Developed": 5.5393
+  },
+  "GRS CAPM p": {
+   "North America": 0.0,
+   "Europe": 0.0,
+   "Japan": 0.0476,
+   "Asia Pacific ex Japan": 0.0,
+   "Developed": 0.0
+  },
+  "mean|a| CAPM (%/mo)": {
+   "North America": 0.142,
+   "Europe": 0.116,
+   "Japan": 0.1576,
+   "Asia Pacific ex Japan": 0.223,
+   "Developed": 0.1439
+  },
+  "FF3 alpha": {
+   "North America": 3.9163,
+   "Europe": 2.3355,
+   "Japan": 2.6036,
+   "Asia Pacific ex Japan": 7.0367,
+   "Developed": 4.4987
+  },
+  "FF3 t": {
+   "North America": 5.176,
+   "Europe": 3.8195,
+   "Japan": 3.8367,
+   "Asia Pacific ex Japan": 5.2246,
+   "Developed": 7.2547
+  },
+  "GRS FF3": {
+   "North America": 3.5598,
+   "Europe": 2.7595,
+   "Japan": 1.2052,
+   "Asia Pacific ex Japan": 3.5669,
+   "Developed": 5.2179
+  },
+  "GRS FF3 p": {
+   "North America": 0.0,
+   "Europe": 0.0,
+   "Japan": 0.2289,
+   "Asia Pacific ex Japan": 0.0,
+   "Developed": 0.0
+  },
+  "mean|a| FF3 (%/mo)": {
+   "North America": 0.1056,
+   "Europe": 0.09,
+   "Japan": 0.082,
+   "Asia Pacific ex Japan": 0.2024,
+   "Developed": 0.1093
+  },
+  "SMB beta": {
+   "North America": 0.986,
+   "Europe": 0.923,
+   "Japan": 0.9752,
+   "Asia Pacific ex Japan": 1.1871,
+   "Developed": 0.9961
+  },
+  "HML beta": {
+   "North America": 0.5737,
+   "Europe": 0.4196,
+   "Japan": 0.4454,
+   "Asia Pacific ex Japan": 0.5317,
+   "Developed": 0.4607
+  }
+ }
+}

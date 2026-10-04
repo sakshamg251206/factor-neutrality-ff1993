@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.remember/
+.DS_Store
+# Raw data are downloaded on demand (see data/README.md); only the manifest is tracked.
+data/raw/*
+!data/raw/MANIFEST.json
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/build.log
+paper/main.pdf

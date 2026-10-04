@@ -1,0 +1,12 @@
+{
+  "title": "Alpha or Factor Exposure? A Replication of Fama and French (1993) and a Factor-Neutrality Test of Industry Momentum, 1963-2026",
+  "upload_type": "software",
+  "description": "Reproducible research code, paper, figures and tables. Replicates the core time-series evidence of Fama and French (1993) from public data and tests whether an industry-momentum strategy earns alpha or factor premia (CAPM, FF3, FF5, UMD), with out-of-sample, cost, regime, international and multiple-testing analyses.",
+  "creators": [{"name": "Garg, Saksham"}],
+  "keywords": ["asset pricing", "Fama-French", "factor models", "alpha", "momentum", "replication", "factor neutrality"],
+  "license": "MIT",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {"identifier": "10.1016/0304-405X(93)90023-5", "relation": "cites", "resource_type": "publication-article", "scheme": "doi"}
+  ]
+}

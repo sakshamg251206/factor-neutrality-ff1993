@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factor-neutrality"
+version = "1.0.0"
+description = "Is a strategy's alpha genuine, or compensation for known factor risk? A Fama-French (1993) replication and extension."
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "scipy", "statsmodels", "matplotlib", "requests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
