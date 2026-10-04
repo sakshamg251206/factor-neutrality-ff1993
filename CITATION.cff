@@ -16,7 +16,16 @@ keywords:
   - alpha
   - momentum
   - replication
-# A DOI will be added here only after the Zenodo record exists.
+doi: 10.5281/zenodo.23144116
+repository-code: https://github.com/sakshamg251206/factor-neutrality-ff1993
+url: https://doi.org/10.5281/zenodo.23144115
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23144116
+    description: Version 1.0.0 on Zenodo
+  - type: doi
+    value: 10.5281/zenodo.23144115
+    description: Concept DOI (all versions)
 references:
   - type: article
     authors:

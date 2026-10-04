@@ -4,7 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python 3.14](https://img.shields.io/badge/python-3.14-blue.svg)
 ![Tests](https://img.shields.io/badge/tests-16%20passing-brightgreen.svg)
-**Zenodo DOI:** *not yet minted.* It will be added here once the archive is published (see [Zenodo](#zenodo)).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23144116.svg)](https://doi.org/10.5281/zenodo.23144116)
+**Zenodo DOI:** [10.5281/zenodo.23144116](https://doi.org/10.5281/zenodo.23144116) (v1.0.0) · all versions: [10.5281/zenodo.23144115](https://doi.org/10.5281/zenodo.23144115)
 
 > **Research question.** *Is this strategy actually generating alpha, or am I just being compensated for taking known systematic factor risk?*
 
@@ -197,7 +198,7 @@ Requires Python 3.14 (tested 3.14.4), internet access for the first run, and a L
 for the PDF.
 
 ```bash
-git clone <this-repo> && cd factor-neutrality
+git clone https://github.com/sakshamg251206/factor-neutrality-ff1993.git && cd factor-neutrality-ff1993
 make setup          # venv + pinned dependencies (requirements.txt; full lock in requirements-lock.txt)
 make all            # tests -> data download -> all tables/figures -> notebooks -> paper PDF
 ```
@@ -251,16 +252,18 @@ French data are revised over time; GRS assumes normal iid errors. See paper §13
              Factor-Neutrality Test of Industry Momentum, 1963--2026},
   year    = {2026},
   version = {1.0.0},
-  note    = {DOI to be added after Zenodo archiving}
+  publisher = {Zenodo},
+  doi     = {10.5281/zenodo.23144116},
+  url     = {https://doi.org/10.5281/zenodo.23144116}
 }
 ```
 Please also cite Fama & French (1993). Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
 
 ## Zenodo
 
-**Status: not yet published.** The repository is prepared for archiving (`.zenodo.json`,
-`CITATION.cff`). The DOI badge and citation will be added only after the Zenodo record exists. No DOI
-has been minted yet, and none is claimed.
+Archived on Zenodo: **v1.0.0**, DOI [10.5281/zenodo.23144116](https://doi.org/10.5281/zenodo.23144116)
+(record: https://zenodo.org/records/23144116). The concept DOI [10.5281/zenodo.23144115](https://doi.org/10.5281/zenodo.23144115)
+always resolves to the latest version. Each GitHub release creates a new Zenodo version.
 
 ## Acknowledgements & licence
 
